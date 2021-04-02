@@ -1,0 +1,24 @@
+.grid{
+  &-container{
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    background: #bbada0;
+    border-radius: 10px;
+  }
+  &-row {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content:start;
+    align-items: center;
+    background-color: #bbada0;
+
+  }
+  &-cell{
+    width: 140px;
+    height: 140px;
+    margin-right: 10px;
+    background-color: rgba(238, 228, 218, 0.35);
+  }
+}
